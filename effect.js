@@ -80,5 +80,13 @@ $(document).ready(function() {
 				$(".img-slider-arrows").css({ opacity: "0" });
 			});
 		}
-	}	
+	}
+
+	{
+		$(".footer-list-item").hover(function() {
+			$(this).css({ opacity: "0.5" });
+		}, function() {
+			$(this).css({ opacity: "1" });
+		});
+	}
 });
