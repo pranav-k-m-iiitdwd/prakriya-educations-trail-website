@@ -34,33 +34,54 @@
 </head>
 
 <body>
-
+	<!-- Current page -->
 	<div class="current-page" id="home"></div>
 
+	<!-- Loading block only for Home page -->
 	<div class="loading-block">
 		<img src="images\board 1.jpg" class="loading-img">
 		<div class="loading-container"><div class="loading"></div></div>
 	</div>
 
 	<div class="main-block">
-
 		<div class="main-body">
 
-			<div class="header-container">
+			<div class="header-container">				
 				<div class="header">
+
+					<div class="header-of-header-container">
+						<div class="header-of-header-back"></div>
+						<div class="header-of-header">
+							<div class="header-phone">		
+								<img src="images\f-ph.png" class="header-phone-img">						
+								<p class="header-phone-no">&nbsp; 9481587586</p>
+							</div>
+							<a href="login.html">
+								<div class="header-login">		
+									<img src="images\f-login.png" class="header-login-img">						
+									<p class="header-login-link">&nbsp; Login</p>
+								</div>
+							</a>							
+						</div>
+					</div>
+
 					<div class="logo-name-container">
 						<img src="images\logo name.png" class="logo-name">						
 					</div>
+
 					<div class="nav-bar-container">
 						<div class="nav-bar">
 							<ul class="nav-bar-list">
 								<li class="nav-bar-list-items"><a href="home.html" class="nav-bar-links" id="nav-home">Home</a></li>
+								<li class="nav-bar-list-items"><a href="about.html" class="nav-bar-links" id="nav-about">About us</a></li>
 								<li class="nav-bar-list-items"><a href="admissions.html" class="nav-bar-links" id="nav-admissions">Admissions</a></li>
 								<li class="nav-bar-list-items"><a href="academics.html" class="nav-bar-links" id="nav-academics">Academics</a></li>
-								<li class="nav-bar-list-items"><a href="faculty.html" class="nav-bar-links" id="nav-faculty">Faculty</a></li>
+								<li class="nav-bar-list-items"><a href="alumni.html" class="nav-bar-links" id="nav-alumni">Alumni</a></li>
+								<li class="nav-bar-list-items"><a href="engage.html" class="nav-bar-links" id="nav-engage">Engage with Prakriya</a></li>
 							</ul>							
 						</div>						
 					</div>
+
 					<div class="mob-nav-bar-container">
 						<div class="mob-nav-bar">
 							<div class="mob-nav-bar-icon">
@@ -74,9 +95,11 @@
 							<div class="mob-nav-bar-items">
 								<ul class="mob-nav-bar-list">
 									<a href="home.html" class="mob-nav-bar-links"><li class="mob-nav-bar-list-items" id="mob-nav-home">Home</li></a>
+									<a href="about.html" class="mob-nav-bar-links"><li class="mob-nav-bar-list-items" id="mob-nav-about">About us</li></a>
 									<a href="admissions.html" class="mob-nav-bar-links"><li class="mob-nav-bar-list-items" id="mob-nav-admissions">Admissions</li></a>
 									<a href="academics.html" class="mob-nav-bar-links"><li class="mob-nav-bar-list-items" id="mob-nav-academics">Academics</li></a>
-									<a href="faculty.html" class="mob-nav-bar-links"><li class="mob-nav-bar-list-items" id="mob-nav-faculty">Faculty</li></a>
+									<a href="alumni.html" class="mob-nav-bar-links"><li class="mob-nav-bar-list-items" id="mob-nav-alumni">Alumni</li></a>
+									<a href="engage.html" class="mob-nav-bar-links"><li class="mob-nav-bar-list-items" id="mob-nav-engage">Engage with Prakriya</li></a>
 								</ul>
 							</div>					
 						</div>						
@@ -84,22 +107,19 @@
 				</div>			
 			</div>
 
-			<div class="img-slider-container">
+			<!-- Id of img-slider-container is equal to the number of images -->
+			<div class="img-slider-container" id="4">
 				<div class="img-slider">
 					<div class="img-back"></div>
 					<img src="images\img slider img 1.jpg" class="img-slider-imgs" id="img-slider-img-1">
 					<img src="images\img slider img 2.jpg" class="img-slider-imgs" id="img-slider-img-2">
 					<img src="images\img slider img 3.jpg" class="img-slider-imgs" id="img-slider-img-3">	
-					<img src="images\img slider img 4.jpg" class="img-slider-imgs" id="img-slider-img-4">					
+					<img src="images\img slider img 4.jpg" class="img-slider-imgs" id="img-slider-img-4">							
 					<div id="img-slider-cover">
 						<div class="img-slider-arrows" id="img-slider-arrow-left"><p><</p></div>
 						<div class="img-slider-arrows" id="img-slider-arrow-right"><p>></p></div>
 					</div>					
 				</div>				
-			</div>
-
-			<div class="nav-line-container">
-				<div class="nav-line"></div>			
 			</div>
 
 			<div class="test-content">
@@ -108,30 +128,67 @@
 
 			<div class="footer-container">
 				<div class="footer">
-					<div class="footer-back"></div>			
+					<div class="footer-back"></div>
+					<div class="blue-print-links">
+						<div class="blue-print-blocks">
+							<h4 class="blue-print-list-head-container"><a href="about.html" class="blue-print-list-head">About us</a></h4>							
+							<ul class="blue-print-list">
+								<li><a href="about.html" class="blue-print-list-items">Ideology</a></li>
+								<li><a href="about.html" class="blue-print-list-items">Centres</a></li>
+								<li><a href="about.html" class="blue-print-list-items">Result</a></li>
+							</ul>
+						</div>
+						<div class="blue-print-blocks">
+							<h4 class="blue-print-list-head-container"><a href="admissions.html" class="blue-print-list-head">Admissions</a></h4>							
+							<ul class="blue-print-list">
+								<li><a href="admissions.html" class="blue-print-list-items">Admission procedure</a></li>
+								<li><a href="admissions.html" class="blue-print-list-items">Fee structures</a></li>
+								<li><a href="admissions.html" class="blue-print-list-items">Login system</a></li>					
+							</ul>
+						</div>
+						<div class="blue-print-blocks">
+							<h4 class="blue-print-list-head-container"><a href="academics.html" class="blue-print-list-head">Academics</a></h4>							
+							<ul class="blue-print-list">
+								<li><a href="academics.html" class="blue-print-list-items">Courses</a></li>
+								<li><a href="academics.html" class="blue-print-list-items">Faculty</a></li>
+								<li><a href="academics.html" class="blue-print-list-items">Behind screens</a></li>
+							</ul>
+						</div>
+						<div class="blue-print-blocks">
+							<h4 class="blue-print-list-head-container"><a href="alumni.html" class="blue-print-list-head">Alumni</a></h4>							
+							<ul class="blue-print-list">
+								<li><a href="alumni.html" class="blue-print-list-items">Notable Alumni</a></li>
+								<li><a href="alumni.html" class="blue-print-list-items">Events</a></li>								
+							</ul>
+						</div>
+						<div class="blue-print-blocks">
+							<h4 class="blue-print-list-head-container"><a href="engage.html" class="blue-print-list-head">Engage with Prakriya</a></h4>							
+							<ul class="blue-print-list">
+								<li><a href="engage.html" class="blue-print-list-items">Careers/Jobs</a></li>
+								<li><a href="engage.html" class="blue-print-list-items">Tenders</a></li>
+								<li><a href="engage.html" class="blue-print-list-items">Donate</a></li>
+							</ul>
+						</div>
+					</div>		
 					<ul class="footer-list">
-						<li class="footer-list-item footer-text"><a href="" class="footer-links">Feedback</a></li>
+						<li class="footer-list-item footer-text footer-having-links"><a href="" class="footer-links">Feedback</a></li>
 						<li class="footer-list-item footer-line">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;</li>
-						<li class="footer-list-item footer-text"><a href="" class="footer-links">Contact us</a></li>		
+						<li class="footer-list-item footer-text footer-having-links"><a href="" class="footer-links">Contact us</a></li>		
 						<li class="footer-list-item footer-line">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;</li>						
-						<li class="footer-list-item footer-text"><a href="" class="footer-links">Follow us</a></li>
+						<li class="footer-list-item footer-text footer-having-links"><a href="" class="footer-links">Follow us</a></li>
 						<li class="footer-list-item footer-line"></li>
 						<li class="footer-img-group">
 							<ul class="footer-img-group-list">
-								<li class="footer-list-item"><a href=""><img src="images\f-yt.png" class="follow-imgs"></a></li>
-								<li class="footer-list-item"><a href=""><img src="images\f-insta.png" class="follow-imgs"></a></li>
-								<li class="footer-list-item"><a href=""><img src="images\f-fb.png" class="follow-imgs"></a></li>
+								<li class="footer-list-item footer-having-links"><a href=""><img src="images\f-yt.png" class="follow-imgs"></a></li>
+								<li class="footer-list-item footer-having-links"><a href=""><img src="images\f-insta.png" class="follow-imgs"></a></li>
+								<li class="footer-list-item footer-having-links"><a href=""><img src="images\f-fb.png" class="follow-imgs"></a></li>
 							</ul>						
 						</li>						
 					</ul>											
 					<p class="copy-rights"><br>Copyright © 2020 Pranav K M</p>				
 				</div>
-			</div>				
-
+			</div>
 		</div>
-
 	</div>
-
 </body>
-
 </html>
